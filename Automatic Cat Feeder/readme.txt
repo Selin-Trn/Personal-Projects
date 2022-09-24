@@ -19,7 +19,7 @@
   i. 1602A 16x2 LCD with I2C/IIC chip (this chip reduces the number of cables to connect to the Arduino from 12 to 4)
   j. A breadboard (I also used a mini breadboard to separate the LEDs and the button, but it's not essential)
   k. Push button (to pour down a portion of kibbles and reset the timer)
-  l. 1 green LED and 1 blue LED (blue = the feeder is on, green = reset/kibble pour down)
+  l. 1 green LED and 1 blue LED (blue = the feeder is on, green = reset/kibble pour down) and 2 resistors for them (470R).
 
   Jumper cables
   12V charger for the DC Barrel Plug
