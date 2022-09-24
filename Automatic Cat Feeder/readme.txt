@@ -37,16 +37,19 @@
   I used a 180 degrees servo for the lid. Depending on what you use, you might need to change the position variables inside the code.
 
   LEGO Mixer:
-  The reason I added a mixer component: After a while, the kibbles started clumping at the mouth of the bottle and stopped pouring down.   To prevent this from happening, I added a mixer.
+  The reason I added a mixer component: After a while, the kibbles started clumping at the mouth of the bottle and stopped pouring down.
+  To prevent this from happening, I added a mixer.
   You can try making this component by getting creative, you don't need LEGO parts.
 
-  !!! Placing the mixer inside the bottle is a HASSLE. After gluing the bottle to the container you might not be able to change the  pieces. Plan before putting everything together and make sure everything fits, do not make the mistakes I   did :')
+  !!! Placing the mixer inside the bottle is a HASSLE. After gluing the bottle to the container you might not be able to change the  pieces.
+  Plan before putting everything together and make sure everything fits, do not make the mistakes I did :')
 
   Timer:
   I feed my cat every 6 hours, so I set the time between feedings to 21600 seconds. You can change this time in the setup and inside the turnServo() function.
 
   1620A LCD with I2C:
-  I used this https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24 guide, the necessary library (LiquidCrystal_I2C) is included inside the guide.
+  I used this https://create.arduino.cc/projecthub/akshayjoseph666/interface-i2c-16x2-lcd-with-arduino-uno-just-4-wires-273b24 guide,
+  the necessary library (LiquidCrystal_I2C) is included inside the guide.
 
   Serving Size:
   Increase/decrease the number of iterations inside turnServo() function to adjust serving size.
